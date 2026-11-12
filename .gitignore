@@ -1,0 +1,48 @@
+# ========== 模型文件（绝对不要提交）==========
+models/
+*.gguf
+*.safetensors
+*.onnx
+*.bin
+
+# ========== 构建产物 ==========
+build/
+build-*/
+debug/
+release/
+*.o
+*.obj
+*.exe
+*.dll
+*.a
+*.lib
+*.so
+*.dylib
+moc_*
+qrc_*
+ui_*
+*.moc
+.qmake.stash
+Makefile
+Makefile.*
+CMakeCache.txt
+CMakeFiles/
+
+# ========== Qt Creator 本地配置（含你的机器路径，必须排除）==========
+*.pro.user
+*.pro.user.*
+
+# ========== 第三方源码 ==========
+external/
+
+# ========== 预编译库 ==========
+llama_qt_libs/
+
+# ========== IDE / OS ==========
+.vs/
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+Desktop.ini
+.DS_Store

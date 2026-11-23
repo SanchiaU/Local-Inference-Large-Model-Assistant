@@ -1,2 +1,6 @@
 git init
 git remote add origin https://github.com/SanchiaU/Local-Inference-Large-Model-Assistant.git
+git add .
+git commit -m "初始提交"
+git push -u origin master
+git status

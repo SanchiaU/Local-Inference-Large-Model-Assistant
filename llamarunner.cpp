@@ -244,7 +244,7 @@ void LlamaRunner::generate(QString modelPath,
             static_cast<int32_t>(promptBytes.size()),
             promptTokens.data(),
             static_cast<int32_t>(promptTokens.size()),
-            true,
+            false,//
             true);
 
         if (actualTokenCount < 0) {
